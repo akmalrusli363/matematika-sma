@@ -1,0 +1,23 @@
+- title: Demo Page
+  url: demo-page
+
+- title: Light/Dark Mode
+  url: light-and-dark-mode
+
+- title: Customization
+  url: customization
+
+- title: Syntax Highlighting
+  url: syntax-highlight
+  subnav:
+    - title: Syntax Highlight Examples
+      url: syntax-highlight-examples
+
+- title: Tips
+  url: #
+  subnav:
+    - title: Navigate using Shortcut
+      url: tips/navigate-use-keycut
+
+    - title: Using diff on Markdown
+      url: tips/using-diff-on-markdown

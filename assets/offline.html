@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey, you're offline!</title>
+	<style>
+	body {
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+		background: #0066ff;
+		color: white;
+		text-align: center;
+		font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+	.popup-offline {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: fit-content;
+		height: fit-content;
+	}
+
+	h1,h2,h3,h4,h5,h6 {
+		font-family: "Fredoka One", Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+	h1 {
+		font-size: 8rem;
+		margin: 0em;
+		margin-bottom: .4em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	p {
+		font-style: italic;
+		font-size: 1.2rem;
+	}
+
+	.button {
+		display: inline-block;
+		color: inherit;
+		outline: 1px dotted white;
+		margin-block: .5rem;
+		font-weight: bold;
+		padding: 1rem;
+	}
+	</style>
+</head>
+
+<body>
+    <div class="popup-offline">
+        <h1 class="huge">x_x</h1>
+        <h2>Oh no! This site is OFFLINE :((</h2>
+        <p id="error-quotes">Please reconnect your network and try again</p>
+        <a href="" onClick="reload" class="button">Reload or View fetched page</a>
+    </div>
+</body>
+
+<script>
+var quote = document.getElementById('error-quotes');
+var arr = [
+  "Try\:<br>- Checking the network cables, modem, and router<br>- Reconnecting to Wi-Fi",
+  "Press <strong>F</strong> to pay respect..",
+  "Please reconnect your network and try again",
+  "Please try again",
+  "time out",
+  "you're offline",
+  "offline",
+  "-__-",
+  "x__x",
+  ":(",
+  "RIP",
+  "Now what?",
+  "Expired",
+  "No internet",
+  "No internet connection",
+  "WiFi: Am I a joke to you?",
+  "Mobile Data: Am I a joke to you?",
+  "Top up: Am I a joke to you?",
+  "You forgot to enable mobile data/wifi",
+  "[insert chrome://dino game here...]",
+  "Well boys, we did it. Internet is no more!",
+];
+quote.innerHTML = arr[Math.floor(Math.random() * arr.length)];
+</script>
+
+</html>

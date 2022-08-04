@@ -1,0 +1,149 @@
+[
+    {
+        "theme": "Circus",
+        "colors": {
+            "base00": "#191919",
+            "base01": "#202020",
+            "base02": "#303030",
+            "base03": "#5f5a60",
+            "base04": "#505050",
+            "base05": "#a7a7a7",
+            "base06": "#808080",
+            "base07": "#ffffff",
+            "base08": "#dc657d",
+            "base09": "#4bb1a7",
+            "base0A": "#c3ba63",
+            "base0B": "#84b97c",
+            "base0C": "#4bb1a7",
+            "base0D": "#639ee4",
+            "base0E": "#b888e2",
+            "base0F": "#b888e2"
+        }
+    },
+    {
+        "theme": "ChaniVibes",
+        "colors": {
+            "base00": "#151311",
+            "base01": "#1F1C19",
+            "base02": "#312D29",
+            "base03": "#4A453F",
+            "base04": "#69635B",
+            "base05": "#8F877C",
+            "base06": "#BCB1A3",
+            "base07": "#E8E2DA",
+            "base08": "#E2270E",
+            "base09": "#F48D00",
+            "base0A": "#E9BB01",
+            "base0B": "#8DB406",
+            "base0C": "#08B16B",
+            "base0D": "#067CC6",
+            "base0E": "#E63766",
+            "base0F": "#F4855C"
+        }
+    },
+    {
+        "theme": "ChaniVibes Light",
+        "colors": {
+            "base00": "#E8E2DA",
+            "base01": "#BCB1A3",
+            "base02": "#8F877C",
+            "base03": "#69635B",
+            "base04": "#4A453F",
+            "base05": "#312D29",
+            "base06": "#1F1C19",
+            "base07": "#151311",
+            "base08": "#E2270E",
+            "base09": "#F48D00",
+            "base0A": "#E9BB01",
+            "base0B": "#8DB406",
+            "base0C": "#08B16B",
+            "base0D": "#067CC6",
+            "base0E": "#E63766",
+            "base0F": "#F4855C"
+        }
+    },
+    {
+        "theme": "GitHub Light",
+        "colors": {
+            "base00": "#ffffff",
+            "base01": "#f5f5f5",
+            "base02": "#c8c8fa",
+            "base03": "#969896",
+            "base04": "#e8e8e8",
+            "base05": "#333333",
+            "base06": "#ffffff",
+            "base07": "#ffffff",
+            "base08": "#ed6a43",
+            "base09": "#0086b3",
+            "base0A": "#795da3",
+            "base0B": "#183691",
+            "base0C": "#183691",
+            "base0D": "#795da3",
+            "base0E": "#a71d5d",
+            "base0F": "#333333"
+        }
+    },
+    {
+        "theme": "Google Dark",
+        "colors": {
+            "base00": "#1d1f21",
+            "base01": "#282a2e",
+            "base02": "#373b41",
+            "base03": "#969896",
+            "base04": "#b4b7b4",
+            "base05": "#c5c8c6",
+            "base06": "#e0e0e0",
+            "base07": "#ffffff",
+            "base08": "#CC342B",
+            "base09": "#F96A38",
+            "base0A": "#FBA922",
+            "base0B": "#198844",
+            "base0C": "#3971ED",
+            "base0D": "#3971ED",
+            "base0E": "#A36AC7",
+            "base0F": "#3971ED"
+        }
+    },
+    {
+        "theme": "Google Light",
+        "colors": {
+            "base00": "#ffffff",
+            "base01": "#e0e0e0",
+            "base02": "#c5c8c6",
+            "base03": "#b4b7b4",
+            "base04": "#969896",
+            "base05": "#373b41",
+            "base06": "#282a2e",
+            "base07": "#1d1f21",
+            "base08": "#CC342B",
+            "base09": "#F96A38",
+            "base0A": "#FBA922",
+            "base0B": "#198844",
+            "base0C": "#3971ED",
+            "base0D": "#3971ED",
+            "base0E": "#A36AC7",
+            "base0F": "#3971ED"
+        }
+    },
+    {
+        "theme": "Hi! Mage - Mageria",
+        "colors": {
+            "base00": "#1b1a21",
+            "base01": "#25252d",
+            "base02": "#514660",
+            "base03": "#67577a",
+            "base04": "#9c82a5",
+            "base05": "#d0acd0",
+            "base06": "#e1cede",
+            "base07": "#f1f0ec",
+            "base08": "#e64629",
+            "base09": "#fd823e",
+            "base0A": "#f2cf1f",
+            "base0B": "#aae629",
+            "base0C": "#62dda4",
+            "base0D": "#1dbaa4",
+            "base0E": "#e683a9",
+            "base0F": "#3078b4"
+        }
+    }
+]

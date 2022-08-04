@@ -1,0 +1,45 @@
+<nav id="navigationBar">
+  <div class="navigation-menu">
+    <ul>
+      <li class="mobile night-toggle"><a class="night-toggle" onclick="toggleDarkMode()">
+        <i class="fa fa-sun-o"></i>
+      </a></li>
+      <li><a href="{{ site.baseurl }}/" class="title">
+        <strong>{{ site.title }}</strong>
+      </a></li>
+      <ul class="menu" id="navMenu">
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ site.github.repository_url }}">View Repository</a></li>
+        <li class="desktop night-toggle"><a class="night-toggle" onclick="toggleDarkMode()">
+          <i class="fa fa-sun-o"></i><span class="night-toggle-text">Day/Night</span>
+        </a></li>
+        <li class="dropdown right">
+          <div class="dropbutton">Contents
+            <i class="fa fa-caret-down"></i>
+          </div>
+          <ul class="dropdown-content">
+            {% for item in site.data.navigation %}
+            <li class="subdropdown">
+              <a href="{% if item.url %}{{ site.baseurl }}/{{ item.url }}{% else %}#{% endif %}" class="{% if item.subnav %}dropdown{% else %}{% if item.external == true %}external{% else %}item{% endif %}{% endif %}">
+                {{ item.title }}
+              </a>
+              {% if item.subnav %}
+              <ul class="subdropdown-content">
+                {% for subitem in item.subnav %}
+                <li class="subdropdown">
+                  <a href="{{ site.baseurl }}/{{ subitem.url }}" class="item">
+                    {{ subitem.title }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+      <li><a href="javascript:void(0);" class="icon" onclick="peekDropdown()">&#9776;</a></li>
+    </ul>
+  </div>
+</nav>

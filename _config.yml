@@ -1,0 +1,11 @@
+theme: jekyll-theme-cayman
+repository: "akmalrusli363/cayman-improved"
+title: "Cayman Improved"
+description: "An improved Cayman theme, for project documentation, wiki, and web playground"
+plugins:
+  - jemoji
+
+color:
+  meta: "#2F205F" # Russian Violet
+  primary: "#4A307D" # Spanish Violet
+  accent: "#5A3A90" # Rebecca Purple
